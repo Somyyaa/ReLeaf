@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import NavBar from "./components/NavBar";
+import Navbar from "./components/Navbar";
 import { Route, Routes, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import WasteDetails from "./pages/WasteDetails";
@@ -24,7 +24,7 @@ const App = () => {
     <>
     <Toaster />
     {showLogin && <Login/>}
-      {!isOwnerPath && <NavBar/>}
+      {!isOwnerPath && <Navbar/>}
 
      <Routes>
       <Route path='/' element={<Home/>}/>
