@@ -4,13 +4,14 @@ A responsive web application that connects farmers with retailers, industries or
 ## Features
 - User authentication
 - Real-time booking system
+- Image upload support
 - Chatbot
 
 ## Tech Stack
 **Client:** React, TailwindCSS  
 **Server:** Node.js, Express  
 **Database:** MongoDB  
-**APIs:** Gemini 2.5 Flash
+**APIs:** Gemini 2.5 Flash, ImageKit.io
 
 ## Screenshot
 Here is a snapshot of the chatbot response
